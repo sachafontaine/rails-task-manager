@@ -1,0 +1,8 @@
+<div class="form m-5">
+<%= simple_form_for @task do |f| %>
+  <%= f.input :title %>
+  <%= f.input :details %>
+  <%= f.input :completed, as: :boolean %>
+  <%= f.button :submit %>
+<% end %>
+</div>

@@ -1,0 +1,8 @@
+<div class="text-center">
+<h1><%= @task.title %></h1>
+<h4>Details : <%= @task.details %></h4>
+<p>Completed : <%= @task.completed %></p>
+
+<%= link_to "Update task", edit_task_path %>
+<%= link_to "Back to tasks list", tasks_path %>
+</div>
